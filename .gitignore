@@ -6,8 +6,10 @@
 # Archivos compactados presuntamente grandes
 *.zip
 
-#Archivos gdoc
+#Archivos gdrive
 *.gdoc
+*.ods
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
