@@ -190,3 +190,4 @@ project/target
 
 .vscode/settings.json
 datasets/competencia_02.db.wal
+*.db
