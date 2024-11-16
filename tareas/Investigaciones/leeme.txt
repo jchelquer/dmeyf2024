@@ -1,0 +1,78 @@
+Para correr los experimentos:
+
+
+-----------------------------
+Para todos los experimentos
+-----------------------------
+
+J010_crear_ternaria	#Toma competencia_02_crudo y graba competencia_02
+J010_feature_engineering
+	a) Para experimentos 2 y 4: tal como está
+		dataset_file='competencia_02.csv.gz'
+		output_file='competencia_02_aumentada.csv.gz'	
+-----------------------------
+Para experimentos 1 a 4:
+-----------------------------
+J010_crear_sample
+Con los parámetros que tiene pero correrlo
+- Para exp 1-2: con 
+	dataset_file='competencia_02.csv.gz'
+	output_file='sample_c02_base_m1a8.csv.gz'
+- Para exp 3-4: con
+	dataset_file='competencia_02__aumentada.csv.gz'
+	output_file='sample_c02_aum_m1a8.csv.gz'
+
+Descargar los 4 datasets involucrados
+010_variables_con_RF
+	vm=False
+	ajustar el dataset_path
+	el resto se adapta solo
+
+010_gbtd_con_envio
+	ajustar el dataset_path
+	experimento 1:
+		vm=False
+		dset=""
+		feat="base"
+	experimento 2:
+		vm=False
+		dset="rf"
+		feat="base"
+	experimento 3:
+		vm=False
+		dset=""
+		feat="aum"
+	experimento 4:
+		vm=False
+		dset="rf"
+		feat="aum"
+
+
+-----------------------------
+Para experimentos 5 a 8:
+-----------------------------
+010_variables_con_RF
+	vm=True
+	ajustar el dataset_path
+	el resto se adapta solo
+
+010_gbtd_con_envio
+	ajustar el dataset_path
+	experimento 1:
+		vm=True
+		dset=""
+		feat="base"
+	experimento 2:
+		vm=True
+		dset="rf"
+		feat="base"
+	experimento 3:
+		vm=True
+		dset=""
+		feat="aum"
+	experimento 4:
+		vm=True
+		dset="rf"
+		feat="aum"
+
+	
