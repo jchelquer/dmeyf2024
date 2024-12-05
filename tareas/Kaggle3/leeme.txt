@@ -1,0 +1,14 @@
+Orden de ejecución
+
+j010_final_crear_ternaria      Siempre
+j010_final_0_crear_sample      Opcional-no se usó en la versión final
+j010_final_1_dqdd              Opcional
+j010_final_2_feature_engineering Opcional- 
+		se corrío con parámetro experimento='____'
+j010_final_3_variables_con_RF  Opcional - se corrió
+j010_final_4_optimizacion
+j010_final_5_gbtd_con_semillero_y_envio
+
+Cambiando "experimento" en los parámetros se puede tomar archivos salida de cualquiera de los pasos para correr uno en particular.
+Así, se puede hacer optimización y lggm directamente sobre los datos originales
+con el experimento "----"
